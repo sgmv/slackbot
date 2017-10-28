@@ -1,0 +1,8 @@
+external_auth:
+  pam:
+    tester:
+      - .*
+
+rest_cherrypy:
+  port: 8000
+  disable_ssl: true
